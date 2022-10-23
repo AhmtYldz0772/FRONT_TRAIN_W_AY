@@ -55,6 +55,10 @@ import styled from 'styled-components';
  font-weight: bold;
  margin: 0;
  `;
+ export const baslik = styled.h6`
+ font-weight: bold;
+ margin: 0;
+ `;
  
  export const Input = styled.input`
  background-color: #eee;
@@ -64,6 +68,9 @@ import styled from 'styled-components';
  width: 100%;
  border-radius:20px
  `;
+
+ 
+
  
 
  export const Button = styled.button`
@@ -85,7 +92,7 @@ import styled from 'styled-components';
     }
  `;
  export const GhostButton = styled(Button)`
- background-color: transparent;
+ background-color: #712b1f;
  border-color: #ffffff;
  `;
  
